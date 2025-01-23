@@ -1,5 +1,9 @@
 function validEmail(str) {
   //your JS code here.
+	const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    // Check if the input matches the regex
+    return emailRegex.test(str);
+	
 }
 
 // Do not change the code below.
